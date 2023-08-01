@@ -19,7 +19,7 @@ class BottomNavbar extends StatelessWidget {
       color: Colors.black,
       padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20, top: 15),
       child: Row(
-        key: const Key("bottom_navaigation_bar_row"),
+        key: const Key("bottom_navigation_bar_row"),
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: List.generate(navbarMenuList.length, (index) {
           return InkWell(
